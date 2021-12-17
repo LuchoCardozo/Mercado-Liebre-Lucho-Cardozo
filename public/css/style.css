@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    font-family: "Roboto", "sans-serif";
+            }
+
+main { 
+    width: 100vw;
+    background-color: #BDC3C7;
+    color: #5D6D7E;
+    display: block;
+    margin: auto;
+    text-align:left;
+}
+
+.contenedor {
+    width: 90vw;
+    display: block;
+    margin: auto;
+
+}
+
+.contenedor-texto{
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px #ebebeb;
+}
+
+.precio , .descuento, .descripcion{
+    margin: 5px 0;
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+.descuento{
+    color:rgb(13, 219, 41);
+    font-size: 16px;
+    font-weight:bolder ;
+    width: 70%;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.camionicon{
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+color: #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+
+}
+
+#camionicono{
+transition: transform 200ms;
+
+}
+#camionicono:hover{
+    transform: rotate(-90deg);
+
+}     
+    
+
+
+
+.contenedor-texto-icono{
+    position: relative;
+}
+
+.preciodescuento{
+    display: flex;
+    align-items:flex-end;
+}
+
+main article{
+    background-color: white;
+    width: 90vw;
+    display: block;
+    margin: auto;
+   }
+
+main section article div h3{
+    font-size: 25px;
+}
+
+.maincaja{
+    padding-bottom: 10px;
+
+  
+}
+
+
+main section article div h4{
+    font-size: 20px;
+    color: #00FF00;
+}
+main section article div h5{
+    display: none;
+}
+main section article div{
+    border-top: solid 1px #ebebeb;
+    text-indent: 15px;
+}
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+   
+     }
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo{
+    width: 200px;
+    padding: 15px;
+}
+
+.burger-menu{
+    background-color: #03264C ;
+    color: white;
+    display: block;
+    padding: 12px 0;
+    font-size: 18px;
+    max-width: 50px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+ 
+
+.banner{
+    display: flex;
+ 
+}
+.bannerimg {
+    width: 100vw;
+
+}
+
+.contenedor-foto-texto{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    
+}
+
+.titulodeseccion {
+    width: 90vw;
+    padding:10px 0;
+    font-size: 24px;
+}
+.imagenes{
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+
+.main-navbar{
+    display: none;
+}
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.contenedorfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+}
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100vw;
+}
+
+.iconofooter{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: blue;
+    
+   
+}
+
+
+.titulosseleccion{
+    font-size: 22px;
+    margin: 0;
+
+}
+.parrafo{
+    margin-top: 1px;
+    margin-bottom: 15px;
+
+}
+
+.formulario-registro{
+    width: 50vw;
+    margin: auto;
+    padding: 10px;
+    /*border: dashed 1px red;*/
+}
+.formulario-registro div{
+   /* border: dashed 1px blue;*/
+    padding:10px 0;
+    width: 100%;
+}
+.formulario-registro input{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-style: none;
+}
+
+.catinteres div{
+    padding: 5px 10px;
+
+}
+.catinteres input{
+    width: 20%;
+}
+
+.comprador-vendedor input{
+    width: 10%;
+}
+.enviar-borrar{
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+.enviar, .borrar {
+
+    padding: 5px 10px;
+    background-color: #03264C;
+    color: white;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 10%;
+
+}
+
+#icono{
+    color: blue;
+    transition: all 10ms;
+}
+
+#icono:hover{
+   color: red;
+   font-size: 40px;
+
+}
+
+.descripcion{
+       opacity: 0;
+       transition: all 500ms;
+
+     
+ }
+
+ .descripcion:hover{
+     opacity: 1;
+
+     display: flex;
+
+ }   
+
+
+@media (min-width:768px ){
+       .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+.carrusel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+.contenedor-foto-texto{
+    width: 48.5%;
+}
+.imagenes{
+    width: 100%;
+}
+
+ .copy-header {
+    max-width: 350px;
+     text-align: right;
+ }
+
+ .burger-menu{
+     display: none;
+ }
+
+ .main-navbar{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .main-navbar ul{
+     display: flex;
+ }
+ .main-navbar li{
+     margin: 0 5px;
+ }
+
+ .contenedor-foto-texto{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+ }   
+
+ 
+
+}
+
+@media (min-width: 1200px){
+    .main-header-top-bar, .main-navbar {
+       max-width: 90vw;
+        margin: auto;
+        border: dotted 5px red;
+    }
+
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 85vw;
+    margin: auto;
+}
+.imagenes{
+    width: 100%;
+}
+.precio{
+    font-size: 22px;
+    width: 45%;
+}
+.descuento{
+    font-size: 20px;
+    width: 65%;
+
+}
+
+.descripcion{
+    font-size: 20px;
+}
+
+.camionicon{ 
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    top: -30px;
+
+}
+
+.contenedor-foto-texto{
+    margin: 5px;
+}
+
+.logo{
+    width: 250px;
+}
+
+.main-header-top-bar{
+    align-items: center;
+}
+    .copy-header {
+        margin: 0;
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .main-navbar{
+        margin-top: 50px;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+
+    .contenedorfooter{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 20px ;
+
+}
+
+.opcionesfooter{
+    width: 30%;
+}
+
+}
+
+ 
+
+.titulo{
+    font-weight: 100;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.icono{
+
+    font-size: 100px;
+    text-align: center;
+}
