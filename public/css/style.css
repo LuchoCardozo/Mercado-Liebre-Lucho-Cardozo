@@ -253,7 +253,8 @@ main section article div{
 .formulario-registro{
     width: 50vw;
     margin: auto;
-    padding: 10px;
+    padding: 15px 10px;
+    margin-top: 260.84px;
     /*border: dashed 1px red;*/
 }
 .formulario-registro div{
@@ -376,6 +377,10 @@ main section article div{
  }
  .maincaja{
      margin: 0;
+ }
+
+ .formulario-registro{
+     margin-top: 0px;
  }
 
 }
