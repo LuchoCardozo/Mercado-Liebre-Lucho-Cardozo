@@ -21,5 +21,8 @@ app.get("/ingresa", (req,res)=>{
     res.sendFile(path.resolve(__dirname,"./views/login.html"))
 });
 
+
+
+
 //npm i -D nodemon   para instalar
 //npx nodemon  app    para ejecutar
